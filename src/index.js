@@ -5,7 +5,7 @@ import 'modern-normalize';
 
 import { App } from 'components';
 import { GlobalStyles, theme } from 'styles';
-document.title = 'Leeson2'
+document.title = 'Lesson2'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
