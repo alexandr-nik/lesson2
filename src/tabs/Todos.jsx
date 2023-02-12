@@ -75,9 +75,9 @@ export class Todos extends Component {
               shangeTodo={this.shangeTodo}
               closeForm={this.closeForm}
             />
-          )}
-          {!this.state.todos.length && <Text>No todo</Text>}
+          )}        
         </Grid>
+        {!this.state.todos.length && <Text textAlign="center">No todo</Text>}
       </>
     );
   }
